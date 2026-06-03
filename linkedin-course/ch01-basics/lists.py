@@ -14,6 +14,23 @@ mixed = [1, "hello", 3.14, True]
 # list of lists
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 
+# ------------------------------------------lists of dictionaries-------------------------------
+employees = [{'name': "a", 'age': 5, 'year': 2026}, {'name': "b",
+                                                     'age': 6, 'year': 2025}, {'name': "c", 'age': 7, 'year': 2026}]
+
+# display all names in list
+names = [employee['name'] for employee in employees]
+print(names)
+
+first_employee = employees[0]['name']
+print(first_employee)
+
+target_user = []
+for employee in employees:
+    if employee.get('year') == 2026:
+        target_user.append(employee)
+print(target_user)
+
 # print 5 zeros - * is used to repeat an item in a list
 zeros = [0] * 5
 print(zeros)
