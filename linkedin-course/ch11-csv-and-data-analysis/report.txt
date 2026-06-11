@@ -1,0 +1,33 @@
+Total revenue: 9335
+
+Category wise revenue:
+---------------------
+{
+    "Electronics": 6315,
+    "Furniture": 1350,
+    "OfficeSupplies": 1670
+}
+
+Highest selling product: Pencils
+
+Top customer LeaderBoard
+---------------------
+1.Emma - 1800
+2.Will - 1800
+3.Alice - 1280
+4.Tom - 1200
+5.Molly - 350
+6.Charlie - 300
+7.David - 300
+8.Daisy - 300
+9.Ronie - 300
+10.Paxton - 300
+11.Duke - 300
+12.Gretchen - 240
+13.Gill - 240
+14.Stacy - 160
+15.Dany - 150
+16.Randy - 120
+17.Ben - 120
+18.Bob - 50
+19.Rayon - 25
